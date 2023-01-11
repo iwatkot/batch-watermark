@@ -1,6 +1,6 @@
 ## Overview
 
-This simple scripts uses `pillow` to add text watermarks to images. At initial it creates empty folders (if they're not exist). Then it's reading contains of **input** folder using `os.walk()`, expecting to find images and put the list of files to a **JSON** file into **data** directory. It will raise an Exception if there're no files in the directory.<br>
+This is a simple script that uses `pillow` to add text watermarks to images. At initial it creates empty folders (if they're not exist). Then it's reading contains of **input** folder using `os.walk()`, expecting to find images and put the list of files to a **JSON** file into **data** directory. It will raise an Exception if there're no files in the directory.<br>
 After that the script is reading **JSON** file and adding text watermark to the specified coordinates.
 
 ## Settings
